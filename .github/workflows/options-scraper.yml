@@ -2,9 +2,10 @@ name: Options Signal Scraper
 
 on:
   schedule:
-    # 한국시간 평일 매일 06:30 (= UTC 21:30, 미국장 마감 30분 후)
-    - cron: '30 21 * * 1-5'
-  workflow_dispatch:  # GitHub UI에서 수동 실행 가능
+    - cron: '30 21 * * 1-5'    # 평일 KST 06:30 (미국 마감 후)
+    - cron: '30 0 * * 1-5'     # 평일 KST 09:30 (한국 시가)
+    - cron: '0 5 * * 1-5'      # 평일 KST 14:00 (한국 오후)
+  workflow_dispatch:           # 수동 실행 가능
 
 permissions:
   contents: write  # JSON 커밋 권한
