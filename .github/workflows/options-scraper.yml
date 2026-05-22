@@ -1,0 +1,43 @@
+name: Options Signal Scraper
+
+on:
+  schedule:
+    # 한국시간 평일 매일 06:30 (= UTC 21:30, 미국장 마감 30분 후)
+    - cron: '30 21 * * 1-5'
+  workflow_dispatch:  # GitHub UI에서 수동 실행 가능
+
+permissions:
+  contents: write  # JSON 커밋 권한
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add options-data.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update options data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
