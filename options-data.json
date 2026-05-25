@@ -1,15 +1,15 @@
 {
-  "generated_at_kst": "2026-05-25T13:59:34.360747+09:00",
-  "generated_at_utc": "2026-05-25T04:59:34.360749+00:00",
+  "generated_at_kst": "2026-05-25T17:49:31.039791+09:00",
+  "generated_at_utc": "2026-05-25T08:49:31.039794+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 16.7,
-      "prev_close": 16.76,
-      "change": -0.06,
-      "change_pct": -0.358,
-      "date": "2026-05-22"
+      "price": 16.67,
+      "prev_close": 16.7,
+      "change": -0.03,
+      "change_pct": -0.1796,
+      "date": "2026-05-25"
     },
     "vix9d": {
       "price": 14.07,
@@ -48,8 +48,8 @@
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.8425,
-    "vix_vix3m_ratio": 0.8337
+    "vix9d_vix_ratio": 0.844,
+    "vix_vix3m_ratio": 0.8323
   },
   "errors": [],
   "success_count": 6,
