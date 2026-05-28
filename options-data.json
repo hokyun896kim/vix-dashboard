@@ -1,36 +1,36 @@
 {
-  "generated_at_kst": "2026-05-28T17:37:15.265558+09:00",
-  "generated_at_utc": "2026-05-28T08:37:15.265561+00:00",
+  "generated_at_kst": "2026-05-28T23:32:22.356386+09:00",
+  "generated_at_utc": "2026-05-28T14:32:22.356390+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 16.67,
+      "price": 16.07,
       "prev_close": 16.29,
-      "change": 0.38,
-      "change_pct": 2.3327,
+      "change": -0.22,
+      "change_pct": -1.3505,
       "date": "2026-05-28"
     },
     "vix9d": {
-      "price": 13.27,
-      "prev_close": 14.84,
-      "change": -1.57,
-      "change_pct": -10.5795,
-      "date": "2026-05-27"
+      "price": 13.42,
+      "prev_close": 13.27,
+      "change": 0.15,
+      "change_pct": 1.1304,
+      "date": "2026-05-28"
     },
     "vix3m": {
-      "price": 19.45,
-      "prev_close": 19.89,
-      "change": -0.44,
-      "change_pct": -2.2122,
-      "date": "2026-05-27"
+      "price": 19.27,
+      "prev_close": 19.45,
+      "change": -0.18,
+      "change_pct": -0.9255,
+      "date": "2026-05-28"
     },
     "vvix": {
-      "price": 87.53,
-      "prev_close": 89.55,
-      "change": -2.02,
-      "change_pct": -2.2557,
-      "date": "2026-05-27"
+      "price": 86.09,
+      "prev_close": 87.53,
+      "change": -1.44,
+      "change_pct": -1.6452,
+      "date": "2026-05-28"
     },
     "skew": {
       "price": 138.57,
@@ -40,16 +40,16 @@
       "date": "2026-05-27"
     },
     "spx": {
-      "price": 7520.3599,
-      "prev_close": 7519.1201,
-      "change": 1.2397,
-      "change_pct": 0.0165,
-      "date": "2026-05-27"
+      "price": 7541.1499,
+      "prev_close": 7520.3599,
+      "change": 20.79,
+      "change_pct": 0.2765,
+      "date": "2026-05-28"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.796,
-    "vix_vix3m_ratio": 0.8571
+    "vix9d_vix_ratio": 0.8351,
+    "vix_vix3m_ratio": 0.8339
   },
   "errors": [],
   "success_count": 6,
