@@ -1,55 +1,55 @@
 {
-  "generated_at_kst": "2026-06-02T18:00:18.864442+09:00",
-  "generated_at_utc": "2026-06-02T09:00:18.864445+00:00",
+  "generated_at_kst": "2026-06-03T08:15:29.264314+09:00",
+  "generated_at_utc": "2026-06-02T23:15:29.264319+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 16.2,
+      "price": 15.77,
       "prev_close": 16.05,
-      "change": 0.15,
-      "change_pct": 0.9346,
+      "change": -0.28,
+      "change_pct": -1.7445,
       "date": "2026-06-02"
     },
     "vix9d": {
-      "price": 13.76,
-      "prev_close": 12.59,
-      "change": 1.17,
-      "change_pct": 9.2931,
-      "date": "2026-06-01"
+      "price": 13.19,
+      "prev_close": 13.76,
+      "change": -0.57,
+      "change_pct": -4.1424,
+      "date": "2026-06-02"
     },
     "vix3m": {
-      "price": 19.43,
-      "prev_close": 18.66,
-      "change": 0.77,
-      "change_pct": 4.1265,
-      "date": "2026-06-01"
+      "price": 19.49,
+      "prev_close": 19.43,
+      "change": 0.06,
+      "change_pct": 0.3088,
+      "date": "2026-06-02"
     },
     "vvix": {
-      "price": 91.6,
-      "prev_close": 86.06,
-      "change": 5.54,
-      "change_pct": 6.4374,
-      "date": "2026-06-01"
+      "price": 90.53,
+      "prev_close": 91.6,
+      "change": -1.07,
+      "change_pct": -1.1681,
+      "date": "2026-06-02"
     },
     "skew": {
-      "price": 142.46,
-      "prev_close": 144.18,
-      "change": -1.72,
-      "change_pct": -1.1929,
-      "date": "2026-06-01"
+      "price": 143.24,
+      "prev_close": 142.46,
+      "change": 0.78,
+      "change_pct": 0.5475,
+      "date": "2026-06-02"
     },
     "spx": {
-      "price": 7599.96,
-      "prev_close": 7580.0601,
-      "change": 19.8999,
-      "change_pct": 0.2625,
-      "date": "2026-06-01"
+      "price": 7609.7798,
+      "prev_close": 7599.96,
+      "change": 9.8198,
+      "change_pct": 0.1292,
+      "date": "2026-06-02"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.8494,
-    "vix_vix3m_ratio": 0.8338
+    "vix9d_vix_ratio": 0.8364,
+    "vix_vix3m_ratio": 0.8091
   },
   "errors": [],
   "success_count": 6,
