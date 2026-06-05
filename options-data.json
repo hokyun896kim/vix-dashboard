@@ -1,29 +1,29 @@
 {
-  "generated_at_kst": "2026-06-05T13:53:47.327492+09:00",
-  "generated_at_utc": "2026-06-05T04:53:47.327495+00:00",
+  "generated_at_kst": "2026-06-05T17:37:13.849889+09:00",
+  "generated_at_utc": "2026-06-05T08:37:13.849892+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 15.4,
-      "prev_close": 16.06,
-      "change": -0.66,
-      "change_pct": -4.1096,
-      "date": "2026-06-04"
+      "price": 15.73,
+      "prev_close": 15.4,
+      "change": 0.33,
+      "change_pct": 2.1429,
+      "date": "2026-06-05"
     },
     "vix9d": {
-      "price": 13.41,
-      "prev_close": 13.19,
-      "change": 0.22,
-      "change_pct": 1.6679,
-      "date": "2026-06-03"
+      "price": 12.65,
+      "prev_close": 13.41,
+      "change": -0.76,
+      "change_pct": -5.6674,
+      "date": "2026-06-04"
     },
     "vix3m": {
-      "price": 19.76,
-      "prev_close": 19.49,
-      "change": 0.27,
-      "change_pct": 1.3853,
-      "date": "2026-06-03"
+      "price": 19.23,
+      "prev_close": 19.76,
+      "change": -0.53,
+      "change_pct": -2.6822,
+      "date": "2026-06-04"
     },
     "vvix": {
       "price": 89.8,
@@ -33,23 +33,23 @@
       "date": "2026-06-03"
     },
     "skew": {
-      "price": 136.86,
-      "prev_close": 143.24,
-      "change": -6.38,
-      "change_pct": -4.4541,
-      "date": "2026-06-03"
+      "price": 142.15,
+      "prev_close": 136.86,
+      "change": 5.29,
+      "change_pct": 3.8653,
+      "date": "2026-06-04"
     },
     "spx": {
-      "price": 7553.6802,
-      "prev_close": 7609.7798,
-      "change": -56.0996,
-      "change_pct": -0.7372,
+      "price": 7584.3101,
+      "prev_close": 7553.6802,
+      "change": 30.6299,
+      "change_pct": 0.4055,
       "date": "2026-06-04"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.8708,
-    "vix_vix3m_ratio": 0.7794
+    "vix9d_vix_ratio": 0.8042,
+    "vix_vix3m_ratio": 0.818
   },
   "errors": [],
   "success_count": 6,
