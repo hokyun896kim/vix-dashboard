@@ -1,29 +1,29 @@
 {
-  "generated_at_kst": "2026-06-15T19:48:14.449253+09:00",
-  "generated_at_utc": "2026-06-15T10:48:14.449255+00:00",
+  "generated_at_kst": "2026-06-16T08:16:44.975320+09:00",
+  "generated_at_utc": "2026-06-15T23:16:44.975323+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 16.76,
-      "prev_close": 17.68,
-      "change": -0.92,
-      "change_pct": -5.2036,
-      "date": "2026-06-15"
+      "price": 17.68,
+      "prev_close": 19.44,
+      "change": -1.76,
+      "change_pct": -9.0535,
+      "date": "2026-06-12"
     },
     "vix9d": {
-      "price": 17.26,
-      "prev_close": 20.66,
-      "change": -3.4,
-      "change_pct": -16.4569,
-      "date": "2026-06-12"
+      "price": 15.58,
+      "prev_close": 17.26,
+      "change": -1.68,
+      "change_pct": -9.7335,
+      "date": "2026-06-15"
     },
     "vix3m": {
-      "price": 20.51,
-      "prev_close": 21.42,
-      "change": -0.91,
-      "change_pct": -4.2484,
-      "date": "2026-06-12"
+      "price": 19.36,
+      "prev_close": 20.51,
+      "change": -1.15,
+      "change_pct": -5.607,
+      "date": "2026-06-15"
     },
     "vvix": {
       "price": 93.82,
@@ -33,23 +33,23 @@
       "date": "2026-06-12"
     },
     "skew": {
-      "price": 142.6,
-      "prev_close": 142.98,
-      "change": -0.38,
-      "change_pct": -0.2658,
-      "date": "2026-06-12"
+      "price": 144.32,
+      "prev_close": 142.6,
+      "change": 1.72,
+      "change_pct": 1.2062,
+      "date": "2026-06-15"
     },
     "spx": {
-      "price": 7431.46,
-      "prev_close": 7394.2998,
-      "change": 37.1602,
-      "change_pct": 0.5026,
-      "date": "2026-06-12"
+      "price": 7554.29,
+      "prev_close": 7431.46,
+      "change": 122.8301,
+      "change_pct": 1.6528,
+      "date": "2026-06-15"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 1.0298,
-    "vix_vix3m_ratio": 0.8172
+    "vix9d_vix_ratio": 0.8812,
+    "vix_vix3m_ratio": 0.9132
   },
   "errors": [],
   "success_count": 6,
