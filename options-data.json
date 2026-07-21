@@ -1,55 +1,55 @@
 {
-  "generated_at_kst": "2026-07-21T16:25:43.199047+09:00",
-  "generated_at_utc": "2026-07-21T07:25:43.199049+00:00",
+  "generated_at_kst": "2026-07-22T07:26:31.742337+09:00",
+  "generated_at_utc": "2026-07-21T22:26:31.742340+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 18.65,
-      "prev_close": 18.77,
-      "change": -0.12,
-      "change_pct": -0.6393,
-      "date": "2026-07-20"
+      "price": 17.05,
+      "prev_close": 18.65,
+      "change": -1.6,
+      "change_pct": -8.5791,
+      "date": "2026-07-21"
     },
     "vix9d": {
-      "price": 16.85,
-      "prev_close": 13.98,
-      "change": 2.87,
-      "change_pct": 20.5293,
-      "date": "2026-07-17"
+      "price": 15.48,
+      "prev_close": 16.85,
+      "change": -1.37,
+      "change_pct": -8.1306,
+      "date": "2026-07-21"
     },
     "vix3m": {
-      "price": 20.54,
-      "prev_close": 19.5,
-      "change": 1.04,
-      "change_pct": 5.3333,
-      "date": "2026-07-17"
+      "price": 19.59,
+      "prev_close": 20.54,
+      "change": -0.95,
+      "change_pct": -4.6251,
+      "date": "2026-07-21"
     },
     "vvix": {
-      "price": 102.82,
-      "prev_close": 104.87,
-      "change": -2.05,
-      "change_pct": -1.9548,
-      "date": "2026-07-20"
+      "price": 96.34,
+      "prev_close": 102.82,
+      "change": -6.48,
+      "change_pct": -6.3023,
+      "date": "2026-07-21"
     },
     "skew": {
-      "price": 146.05,
-      "prev_close": 147.28,
-      "change": -1.23,
-      "change_pct": -0.8351,
-      "date": "2026-07-20"
+      "price": 151.66,
+      "prev_close": 146.05,
+      "change": 5.61,
+      "change_pct": 3.8412,
+      "date": "2026-07-21"
     },
     "spx": {
-      "price": 7443.2798,
-      "prev_close": 7457.6899,
-      "change": -14.4102,
-      "change_pct": -0.1932,
-      "date": "2026-07-20"
+      "price": 7509.2002,
+      "prev_close": 7443.2798,
+      "change": 65.9204,
+      "change_pct": 0.8856,
+      "date": "2026-07-21"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.9035,
-    "vix_vix3m_ratio": 0.908
+    "vix9d_vix_ratio": 0.9079,
+    "vix_vix3m_ratio": 0.8703
   },
   "errors": [],
   "success_count": 6,
