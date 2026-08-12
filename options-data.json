@@ -1,6 +1,6 @@
 {
-  "generated_at_kst": "2026-08-12T12:02:56.447035+09:00",
-  "generated_at_utc": "2026-08-12T03:02:56.447038+00:00",
+  "generated_at_kst": "2026-08-12T15:06:27.675588+09:00",
+  "generated_at_utc": "2026-08-12T06:06:27.675590+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
@@ -26,11 +26,11 @@
       "date": "2026-08-11"
     },
     "vvix": {
-      "price": 90.9,
-      "prev_close": 92.51,
-      "change": -1.61,
-      "change_pct": -1.7404,
-      "date": "2026-08-11"
+      "price": 92.51,
+      "prev_close": 90.42,
+      "change": 2.09,
+      "change_pct": 2.3114,
+      "date": "2026-08-10"
     },
     "skew": {
       "price": 135.59,
