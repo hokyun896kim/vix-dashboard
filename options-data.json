@@ -1,55 +1,55 @@
 {
-  "generated_at_kst": "2026-09-02T18:08:55.290036+09:00",
-  "generated_at_utc": "2026-09-02T09:08:55.290040+00:00",
+  "generated_at_kst": "2026-09-03T08:28:45.740918+09:00",
+  "generated_at_utc": "2026-09-02T23:28:45.740921+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 16.68,
+      "price": 15.2,
       "prev_close": 16.34,
-      "change": 0.34,
-      "change_pct": 2.0808,
+      "change": -1.14,
+      "change_pct": -6.9767,
       "date": "2026-09-02"
     },
     "vix9d": {
-      "price": 14.33,
-      "prev_close": 14.33,
+      "price": 12.57,
+      "prev_close": 12.57,
       "change": 0.0,
       "change_pct": 0.0,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "vix3m": {
-      "price": 18.33,
-      "prev_close": 18.33,
+      "price": 17.73,
+      "prev_close": 17.73,
       "change": 0.0,
       "change_pct": 0.0,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "vvix": {
-      "price": 91.25,
-      "prev_close": 86.29,
-      "change": 4.96,
-      "change_pct": 5.7481,
-      "date": "2026-09-01"
+      "price": 86.25,
+      "prev_close": 91.25,
+      "change": -5.0,
+      "change_pct": -5.4795,
+      "date": "2026-09-02"
     },
     "skew": {
-      "price": 149.23,
-      "prev_close": 148.53,
-      "change": 0.7,
-      "change_pct": 0.4713,
-      "date": "2026-09-01"
+      "price": 144.12,
+      "prev_close": 149.23,
+      "change": -5.11,
+      "change_pct": -3.4242,
+      "date": "2026-09-02"
     },
     "spx": {
-      "price": 7631.4702,
-      "prev_close": 7686.1401,
-      "change": -54.6699,
-      "change_pct": -0.7113,
-      "date": "2026-09-01"
+      "price": 7666.6001,
+      "prev_close": 7631.4702,
+      "change": 35.1299,
+      "change_pct": 0.4603,
+      "date": "2026-09-02"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.8591,
-    "vix_vix3m_ratio": 0.91
+    "vix9d_vix_ratio": 0.827,
+    "vix_vix3m_ratio": 0.8573
   },
   "errors": [],
   "success_count": 6,
