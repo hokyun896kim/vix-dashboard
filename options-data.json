@@ -1,55 +1,55 @@
 {
-  "generated_at_kst": "2026-09-09T18:16:06.496631+09:00",
-  "generated_at_utc": "2026-09-09T09:16:06.496634+00:00",
+  "generated_at_kst": "2026-09-10T08:25:23.678696+09:00",
+  "generated_at_utc": "2026-09-09T23:25:23.678699+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 15.84,
+      "price": 16.46,
       "prev_close": 15.72,
-      "change": 0.12,
-      "change_pct": 0.7634,
+      "change": 0.74,
+      "change_pct": 4.7074,
       "date": "2026-09-09"
     },
     "vix9d": {
-      "price": 14.81,
-      "prev_close": 14.81,
+      "price": 15.59,
+      "prev_close": 15.59,
       "change": 0.0,
       "change_pct": 0.0,
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     "vix3m": {
-      "price": 18.39,
-      "prev_close": 18.39,
+      "price": 18.87,
+      "prev_close": 18.87,
       "change": 0.0,
       "change_pct": 0.0,
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     "vvix": {
-      "price": 88.69,
-      "prev_close": 84.42,
-      "change": 4.27,
-      "change_pct": 5.058,
-      "date": "2026-09-08"
+      "price": 94.5,
+      "prev_close": 88.69,
+      "change": 5.81,
+      "change_pct": 6.5509,
+      "date": "2026-09-09"
     },
     "skew": {
-      "price": 148.86,
-      "prev_close": 151.58,
-      "change": -2.72,
-      "change_pct": -1.7944,
-      "date": "2026-09-08"
+      "price": 149.25,
+      "prev_close": 148.86,
+      "change": 0.39,
+      "change_pct": 0.262,
+      "date": "2026-09-09"
     },
     "spx": {
-      "price": 7673.52,
-      "prev_close": 7718.6001,
-      "change": -45.0801,
-      "change_pct": -0.584,
-      "date": "2026-09-08"
+      "price": 7636.3599,
+      "prev_close": 7673.52,
+      "change": -37.1602,
+      "change_pct": -0.4843,
+      "date": "2026-09-09"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 0.935,
-    "vix_vix3m_ratio": 0.8613
+    "vix9d_vix_ratio": 0.9471,
+    "vix_vix3m_ratio": 0.8723
   },
   "errors": [],
   "success_count": 6,
