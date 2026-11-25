@@ -1,55 +1,55 @@
 {
-  "generated_at_kst": "2026-11-25T00:22:21.941723+09:00",
-  "generated_at_utc": "2026-11-24T15:22:21.941725+00:00",
+  "generated_at_kst": "2026-11-25T13:27:48.249717+09:00",
+  "generated_at_utc": "2026-11-25T04:27:48.249719+00:00",
   "source": "yfinance via GitHub Actions",
   "version": "3.0",
   "metrics": {
     "vix": {
-      "price": 27.62,
+      "price": 26.36,
       "prev_close": 26.62,
-      "change": 1.0,
-      "change_pct": 3.7566,
+      "change": -0.26,
+      "change_pct": -0.9767,
       "date": "2026-11-24"
     },
     "vix9d": {
-      "price": 28.71,
+      "price": 26.68,
       "prev_close": 27.76,
-      "change": 0.95,
-      "change_pct": 3.4222,
+      "change": -1.08,
+      "change_pct": -3.8905,
       "date": "2026-11-24"
     },
     "vix3m": {
-      "price": 26.18,
+      "price": 25.47,
       "prev_close": 25.5,
-      "change": 0.68,
-      "change_pct": 2.6667,
+      "change": -0.03,
+      "change_pct": -0.1176,
       "date": "2026-11-24"
     },
     "vvix": {
-      "price": 119.89,
+      "price": 114.07,
       "prev_close": 117.36,
-      "change": 2.53,
-      "change_pct": 2.1558,
+      "change": -3.29,
+      "change_pct": -2.8033,
       "date": "2026-11-24"
     },
     "skew": {
-      "price": 140.37,
-      "prev_close": 138.84,
-      "change": 1.53,
-      "change_pct": 1.102,
-      "date": "2026-11-23"
+      "price": 139.16,
+      "prev_close": 140.37,
+      "change": -1.21,
+      "change_pct": -0.862,
+      "date": "2026-11-24"
     },
     "spx": {
-      "price": 7180.3799,
+      "price": 7201.0898,
       "prev_close": 7237.1699,
-      "change": -56.79,
-      "change_pct": -0.7847,
+      "change": -36.0801,
+      "change_pct": -0.4985,
       "date": "2026-11-24"
     }
   },
   "computed": {
-    "vix9d_vix_ratio": 1.0395,
-    "vix_vix3m_ratio": 1.055
+    "vix9d_vix_ratio": 1.0121,
+    "vix_vix3m_ratio": 1.0349
   },
   "errors": [],
   "success_count": 6,
